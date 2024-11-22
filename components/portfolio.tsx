@@ -263,7 +263,7 @@ export  function Portfolio() {
                   description:
                     'Led a cross-functional team for an NGO project, focusing on timelines, budget management, stakeholder communication.',
                   bgimage: '/projects/fronts/sumbi.png',
-                  link: '/lasunicas',
+                  link: 'https://sumbi-s8un.vercel.app/',
                   size: { width: 400, height: 100 },
                 },
                 {
@@ -302,6 +302,7 @@ export  function Portfolio() {
                     'Website for successful young filmaker Leonardo Cross.',
                   bgimage: '/projects/fronts/leocross.png',
                   size: { width: 400, height: 100 },
+                  link: 'http://leonardocross.com',
                 },
                 {
                   title: 'Moving Memories',
@@ -309,6 +310,7 @@ export  function Portfolio() {
                     'Website developed for Moving Memories artist Ricardo Lay.',
                   bgimage: '/projects/fronts/movingmemories.png',
                   size: { width: 400, height: 100 },
+                  link: 'http://movingmemories.vercel.app',
                 },
               ].map((project, index) => (
                 <div
