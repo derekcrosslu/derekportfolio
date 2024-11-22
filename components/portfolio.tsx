@@ -254,39 +254,61 @@ export  function Portfolio() {
                   title: 'Las Unicas: Community Lending Platform',
                   description:
                     'Empowering rural communities in Peru through digital financial inclusion.',
-                  bgimage: '/projects/lasunicas/front.png',
+                  bgimage: '/projects/fronts/unicas.png',
                   link: '/lasunicas',
+                  size: { width: 400, height: 100 },
                 },
                 {
                   title: 'Sumbi: Community Lending Platform',
                   description:
                     'Led a cross-functional team for an NGO project, focusing on timelines, budget management, stakeholder communication.',
-                  bgimage: '/projects/sumbi/front.png',
+                  bgimage: '/projects/fronts/sumbi.png',
                   link: '/lasunicas',
+                  size: { width: 400, height: 100 },
                 },
                 {
                   title: 'RulesLab: Credit Risk Assessment Automation',
                   description:
                     'Developed at Capital One, focusing on credit risk assessment automation.',
-                  bgimage: '/projects/ruleslab.png',
+                  bgimage: '/projects/fronts/capitalone.png',
+                  link: '/',
+                  size: { width: 400, height: 100 },
                 },
                 {
                   title: 'IPOWER: Energy simulation management',
                   description:
                     'Created for Navy Research Lab, an advanced energy simulation tool.',
-                  bgimage: '/projects/ipower/front.png',
+                  bgimage: '/projects/fronts/ipower.png',
+                  size: { width: 400, height: 100 },
                 },
                 {
                   title: 'Banking App',
                   description:
                     'Spearheaded development of a consumer-focused digital banking solution using React Native.',
-                  bgimage: '/projects/inversiones/front.png',
+                  bgimage: '/projects/fronts/inversiones.png',
+                  link: '/inversiones',
+                  size: { width: 400, height: 100 },
                 },
                 {
                   title: 'SIECF System',
                   description:
                     'Developed a predictive scoring model for unbanked youth using social media data.',
-                  bgimage: '/projects/inversiones/app2.png',
+                  bgimage: '/projects/fronts/innovate.png',
+                  size: { width: 400, height: 100 },
+                },
+                {
+                  title: 'Leonardo Cross',
+                  description:
+                    'Website for successful young filmaker Leonardo Cross.',
+                  bgimage: '/projects/fronts/leocross.png',
+                  size: { width: 400, height: 100 },
+                },
+                {
+                  title: 'Moving Memories',
+                  description:
+                    'Website developed for Moving Memories artist Ricardo Lay.',
+                  bgimage: '/projects/fronts/movingmemories.png',
+                  size: { width: 400, height: 100 },
                 },
               ].map((project, index) => (
                 <div
@@ -307,13 +329,15 @@ export  function Portfolio() {
     transition-opacity'
                     href={project.link || '/'}
                   >
-                    <Image
-                      src={project.bgimage}
-                      alt='las unicas'
-                      width={400}
-                      height={100}
-                      className='w-full h-full p-0 object-cover'
-                    />
+                    <div className='absolute w-full h-full overflow-hidden rounded-lg'>
+                      <Image
+                        src={project.bgimage}
+                        alt='projects'
+                        width={project.size?.width}
+                        height={project.size?.height}
+                        className='w-full h-full object-cover '
+                      />
+                    </div>
                   </Link>
                 </div>
               ))}
