@@ -312,13 +312,31 @@ export  function Portfolio() {
                   size: { width: 400, height: 100 },
                   link: 'http://movingmemories.vercel.app',
                 },
+                {
+                  title: 'Brookfield',
+                  description:
+                    'Interactive visualization of Brookfield&apos;s proven strategy.Clear presentation of Brookfield Corporation and Asset Management',
+                  bgimage: '/projects/fronts/brookfield.png',
+                  size: { width: 400, height: 100 },
+                  link: 'https://brookfield-v2-ten.vercel.app/',
+                },
+                {
+                  title: 'Chess Dojo',
+                  description:
+                    'Website developed for Moving Memories artist Ricardo Lay.',
+                  bgimage: '/projects/fronts/chessdojo.png',
+                  size: { width: 400, height: 100 },
+                  link: 'https://chessdojo-production.up.railway.app/',
+                },
               ].map((project, index) => (
                 <div
                   key={index}
                   className='relative group'
                 >
                   <div className='bg-gray-800 p-6 rounded-lg    bg-black h-40 flex-col justify-center items-center'>
-                    <h3 className='text-lg md:text-2xl font-bold mb-0'>{project.title}</h3>
+                    <h3 className='text-lg md:text-2xl font-bold mb-0'>
+                      {project.title}
+                    </h3>
                     <p className='text-md md:text-xl'>{project.description}</p>
                   </div>
                   <Link
