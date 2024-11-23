@@ -184,8 +184,7 @@ export default function InversionesProject() {
                   <Image
                     src={screenshot.src}
                     alt={screenshot.alt}
-                    width={400}
-                    height={100}
+ 
                     fill
                     className='rounded object-contain'
                     priority={idx === 0}

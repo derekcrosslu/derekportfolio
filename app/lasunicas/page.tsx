@@ -6,6 +6,7 @@ import Image from 'next/image';
 export default function UnicasProject() {
   const [activeTab, setActiveTab] = useState('overview');
 
+  // Existing features, techStack, and screenshots arrays remain the same
   const features = [
     {
       title: 'Dashboard/Summary View',
@@ -114,6 +115,18 @@ export default function UnicasProject() {
                   where members pool resources, coordinate micro-loans, and
                   track repayments to foster local entrepreneurship.
                 </p>
+
+                {/* Video Section */}
+                <div className='relative w-full aspect-video bg-gray-800 rounded-lg overflow-hidden'>
+                  <iframe
+                    src='https://www.youtube.com/embed/daJTG42-bYI'
+                    title='Las Únicas Platform Demo'
+                    className='absolute top-0 left-0 w-full h-full'
+                    allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+                    allowFullScreen
+                  />
+                </div>
+
                 <div className='bg-gray-800 p-6 rounded-lg'>
                   <h3 className='text-xl font-bold mb-4'>Impact Stats</h3>
                   <ul className='space-y-2'>
@@ -126,6 +139,7 @@ export default function UnicasProject() {
               </div>
             )}
 
+            {/* Rest of the tab content remains the same */}
             {activeTab === 'features' && (
               <div>
                 <h2 className='text-3xl font-bold mb-6'>Key Features</h2>

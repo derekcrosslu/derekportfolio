@@ -271,7 +271,7 @@ export  function Portfolio() {
                   description:
                     'Developed at Capital One, focusing on credit risk assessment automation.',
                   bgimage: '/projects/fronts/capitalone.png',
-                  link: '/',
+                  link: '/capitalone',
                   size: { width: 400, height: 100 },
                 },
                 {
@@ -318,8 +318,8 @@ export  function Portfolio() {
                   className='relative group'
                 >
                   <div className='bg-gray-800 p-6 rounded-lg    bg-black h-40 flex-col justify-center items-center'>
-                    <h3 className='text-3xl font-bold mb-0'>{project.title}</h3>
-                    <p className='text-2xl'>{project.description}</p>
+                    <h3 className='text-lg md:text-2xl font-bold mb-0'>{project.title}</h3>
+                    <p className='text-md md:text-xl'>{project.description}</p>
                   </div>
                   <Link
                     className='absolute inset-0 flex p-0 

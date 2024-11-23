@@ -1,0 +1,47 @@
+1
+00:00:00,000 --> 00:00:15,000
+It's possible, we have created it, and I say "we" because we have done it together. We have gone through many assemblies. Without further ado, I'll pass the word to Gianfranco to show us the demo.
+
+2
+00:00:15,000 --> 00:00:35,000
+Yes, we have created this platform to help all the cooperatives during their assemblies. Here we have a video of how this tool works. Many of you have already taken the first step, which is using phones or WhatsApp or text messages.
+
+3
+00:00:35,000 --> 00:00:55,000
+The second step was using Excel. And this is the third step, being able to use a tool that allows us to conduct assemblies making all movements from anywhere, reducing time, knowing that time is very valuable in the chamber.
+
+4
+00:00:55,000 --> 00:01:15,000
+That's why we present this tool, which seeks to reduce all times and provide greater security, especially in the purchase of shares. Since we have already registered the members the first time, we don't have to enter the data again for each Saturday registration.
+
+5
+00:01:15,000 --> 00:01:35,000
+Here we have settings, there are default values that many already configure such as the share value, the number of things in soles, the value of fines and fees, as well as interest.
+
+6
+00:01:35,000 --> 00:01:55,000
+This is a screen where you can register members, including information about when they joined the cooperative, and beneficiary information. Here we have a summary of member data, where you can see how many shares they have.
+
+7
+00:01:55,000 --> 00:02:15,000
+All this can be viewed from any room, on your cell phones, laptops, or tablets. Here we have how to buy shares. We select the already registered members and only enter the share amount.
+
+8
+00:02:15,000 --> 00:02:35,000
+Here we have how a loan payment is registered. When using this tool for all movements, the loans you register are already saved. Here we select which of the active loans the member wants to pay.
+
+9
+00:02:35,000 --> 00:02:55,000
+Similarly, for registering loans, this is a need that many commented on, it's how I can register loans verifying that the member can be lent that amount. We enter an amount in value that can be covered with shares.
+
+10
+00:02:55,000 --> 00:03:15,000
+This platform, for security, restricts this and requests the guarantee if necessary. Similarly, you can view loan details and payment schedule as you have been doing in the loan simulator.
+
+11
+00:03:15,000 --> 00:03:35,000
+Similarly, we have a member view, where each member will be able to enter and see how their economy is doing, verifying all their information, the number of shares they have.
+
+12
+00:03:35,000 --> 00:03:39,000
+This tool that you are going to use is like a Google, it's a very easy-to-use Google. You can go to their site, they'll give you the letter, they help you and recommend you.
