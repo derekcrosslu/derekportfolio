@@ -377,7 +377,7 @@ export  function Portfolio() {
                 hello:
               </p>
               <ul className='space-y-2'>
-                <li>Email: derekcrosslu@gmail.com</li>
+                <li>Email: dereklq7@gmail.com</li>
                 <li>Phone: 917-580-3957</li>
                 <li>Location: Delray Beach, FL</li>
               </ul>
