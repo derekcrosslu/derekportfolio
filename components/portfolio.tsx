@@ -9,7 +9,6 @@ import {
   Briefcase,
   Instagram,
 } from 'lucide-react';
-import ParticleSystem from './brain-particle';
 import Link from 'next/link';
 
 
@@ -43,7 +42,6 @@ export  function Portfolio() {
 
   return (
     <div className='bg-black text-white min-h-screen'>
-      {/* <ParticleSystem /> */}
       <header className='fixed top-0 left-0 right-0 z-50 bg-black bg-opacity-90'>
         <nav className='container mx-auto px-4 py-4 flex justify-between items-center'>
           <a
