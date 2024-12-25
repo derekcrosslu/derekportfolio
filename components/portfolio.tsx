@@ -172,7 +172,7 @@ export  function Portfolio() {
                 'Full Stack Development',
                 'UI/UX Design',
                 'API Integration',
-                'Machine Learning Solutions',
+                'AI & ML Solutions',
                 'Cloud Integration',
                 'DevOps & CI/CD',
               ].map((service) => (
