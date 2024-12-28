@@ -319,12 +319,12 @@ export  function Portfolio() {
                   link: 'https://brookfield-v2-ten.vercel.app/',
                 },
                 {
-                  title: 'Chess Dojo',
+                  title: 'Redis Talk',
                   description:
-                    'Website developed for Moving Memories artist Ricardo Lay.',
-                  bgimage: '/projects/fronts/chessdojo.png',
+                    'This talk introduces Redis, a high-performance, open-source, in-memory NoSQL database designed for speed and versatility.',
+                  bgimage: '/projects/redistalk/redis.png',
                   size: { width: 400, height: 100 },
-                  link: 'https://chessdojo-production.up.railway.app/',
+                  link: 'https://dev.to/derekcrosslu/redis-talk-demo-2ek3',
                 },
               ].map((project, index) => (
                 <div
